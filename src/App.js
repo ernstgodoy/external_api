@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
 //components
-import Albums from './components/Albums';
+import Artist from './components/Artist';
+import { Container } from 'react-bootstrap';
 
 function App() {
   return (
-    <div className="container">
-      <h1>Task 3</h1>
-      <Albums />
-    </div>
+    <Container>
+      <Artist />
+    </Container>
   );
 }
 

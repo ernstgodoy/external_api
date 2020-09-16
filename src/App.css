@@ -1,6 +1,9 @@
 .container {
-  text-align: center;
   margin-top: 30px;
+}
+
+h1 {
+  text-align: center;
 }
 
 #form {
@@ -8,34 +11,13 @@
   justify-content: center;
 }
 
-#albums {
-  margin: 30px;
-  justify-content: center
-}
-
-#album {
-  padding: 10px;
-  justify-content: center;
-}
-
-/* overlay */
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 5px;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  color: white;
-  background-color: #4b4b4bd0;
+.bio {
   overflow-y: scroll;
   resize: none;
-  padding: 5%;
+  height: 480px;
+  padding: 15px;
 }
 
-#album:hover .overlay {
-  opacity: 1;
+.info {
+  padding: 30px;
 }
